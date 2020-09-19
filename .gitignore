@@ -15,8 +15,6 @@
 /build/cmake/Makefile
 /auto/extensions
 /auto/registry
-/bin
-/lib
 /tmp
 /out
 .DS_Store*
