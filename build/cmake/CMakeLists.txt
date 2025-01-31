@@ -270,7 +270,6 @@ if(MAYBE_EXPORT)
   install(EXPORT glew-targets DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/glew
     NAMESPACE GLEW::)
   install(FILES
-      ${CMAKE_CURRENT_SOURCE_DIR}/glew-config.cmake
       ${CMAKE_CURRENT_SOURCE_DIR}/CopyImportedTargetProperties.cmake
     DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/glew)
 endif()
